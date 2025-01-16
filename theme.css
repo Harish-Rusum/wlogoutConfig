@@ -1,0 +1,10 @@
+@define-color bar-bg rgba(255, 0, 0, 0); /* Red with transparency */
+
+@define-color main-bg #2f1818; /* Dark red background */
+@define-color main-fg #f5c2e7; /* Light pinkish foreground (red tint) */
+
+@define-color wb-act-bg #d35d6e; /* Red-mauve active background */
+@define-color wb-act-fg #753c3c; /* Dark red foreground for active state */
+
+@define-color wb-hvr-bg #ff9e7c; /* Peachish-red hover background */
+@define-color wb-hvr-fg #753c3c; /* Dark red foreground for hover state */

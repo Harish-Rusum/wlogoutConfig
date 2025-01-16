@@ -1,0 +1,94 @@
+/* Global styles */
+* {
+	font-size: 14px; /* Adjusted font size */
+}
+
+@import "theme.css"; /* Assuming you're importing additional theme styles */
+
+/* Background and window styles */
+window {
+	background-color: rgba(255, 85, 85, 0); /* Red background with transparency */
+}
+
+/* Button styles */
+button {
+	color: rgba(255, 204, 204, 1); /* Light red text */
+	background-color: rgba(255, 100, 100, 0.8); /* Red background */
+	outline-style: none;
+	border: 3px solid rgba(255, 120, 120, 0.8); /* Red border */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20%;
+	border-radius: 35px;
+	box-shadow: none;
+	text-shadow: none;
+	animation: gradient_f 30s infinite;
+	transition: all 0.3s ease-in-out; /* Transition for border and padding */
+}
+
+/* Button states */
+button:active {
+	background-color: rgba(255, 140, 140, 0.2); /* Darker red active state */
+}
+
+button:focus {
+	background-color: rgba(255, 140, 140, 0.2); /* Darker red focus state */
+	background-size: 30%;
+}
+
+button:hover {
+	background-size: 40%;
+	padding: 14px 26px; /* Increase padding to simulate size increase */
+	background-color: rgba(255, 140, 140, 0.2); /* Darker red hover state */
+	border: 3px solid rgba(255, 120, 120, 1); /* Prominent red border on hover */
+}
+
+/* Specific button hover effects */
+button:hover#lock,
+button:hover#logout,
+button:hover#suspend,
+button:hover#shutdown,
+button:hover#hibernate,
+button:hover#reboot {
+	border-radius: 35px;
+	margin: 3px;
+}
+
+/* Individual button styles with red colors */
+#lock, #logout, #suspend, #shutdown, #hibernate, #reboot {
+	background-color: rgba(255, 100, 100, 0.8); /* Red background */
+	border: 3px solid rgba(255, 120, 120, 0.8); /* Red border */
+	border-radius: 35px;
+	margin: 15px;
+	background-size: 30%;
+}
+
+/* Icon buttons with red colors */
+#lock {
+	background-image: url("/usr/share/wlogout/icons/lock.png");
+}
+
+#logout {
+	background-image: url("/usr/share/wlogout/icons/logout.png");
+}
+
+#suspend {
+	background-image: url("/usr/share/wlogout/icons/suspend.png");
+}
+
+#shutdown {
+	background-image: url("/usr/share/wlogout/icons/shutdown.png");
+}
+
+#hibernate {
+	background-image: url("/usr/share/wlogout/icons/hibernate.png");
+}
+
+#reboot {
+	background-image: url("/usr/share/wlogout/icons/reboot.png");
+}
+
+/* Active state color for selected button (red) */
+button:active {
+	background-color: rgba(255, 140, 140, 0.4); /* Slight darker tint of red on active state */
+}
