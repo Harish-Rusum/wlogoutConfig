@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-mv themeAlternate.css tempTheme.css
-mv styleAlternate.css tempStyle.css
-mv theme.css themeAlternate.css
-mv style.css styleAlternate.css
-mv tempTheme.css theme.css
-mv tempStyle.css style.css
+mv ~/.config/wlogout/themeAlternate.css ~/.config/wlogout/tempTheme.css
+mv ~/.config/wlogout/styleAlternate.css ~/.config/wlogout/tempStyle.css
+mv ~/.config/wlogout/theme.css ~/.config/wlogout/themeAlternate.css
+mv ~/.config/wlogout/style.css ~/.config/wlogout/styleAlternate.css
+mv ~/.config/wlogout/tempTheme.css ~/.config/wlogout/theme.css
+mv ~/.config/wlogout/tempStyle.css ~/.config/wlogout/style.css
