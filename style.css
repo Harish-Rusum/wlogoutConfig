@@ -23,7 +23,7 @@ button {
 	box-shadow: none;
 	text-shadow: none;
 	animation: gradient_f 30s infinite;
-	transition: all 0.3s ease-in-out; /* Transition for border and padding */
+	transition: all 0.1s ease-in-out; /* Transition for border and padding */
 }
 
 /* Button states */
